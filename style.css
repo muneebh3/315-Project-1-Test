@@ -1,0 +1,37 @@
+h1 {
+    color: gray;
+}
+
+.blue_overline_text {
+    color:blue;
+    text-decoration: overline;
+}
+
+#underline_text {
+    text-decoration: underline;
+}
+
+#red_text {
+    color: red;
+}
+
+#blue_text {
+    color: blue;
+}
+
+#small_image {
+    width: 200;
+    height: 200;
+}
+
+#background_color_black {
+    background-color: black;
+}
+
+p {
+    font-size: 20px;
+}
+
+h2 {
+    font-size: 35px;
+}
