@@ -1,14 +1,16 @@
-function change_style() {
-    var alt = false;
-    document.getElementById("style_change").onclick = function() {
-        alt = true;
-    };
-    if (alt) {
-        document.getElementById("page_style").setAttribute("href", "main.css");
-        alt = false;
+function change_style(){
+    var style = localStorage.getItem("color");
+    var sheet = document.getElementById("page_style");
+
+    if (style != "style.css") {
+        sheet.href = "style.css";
+        localStorage.setItem("color", "style.css");
     }
     else {
-        document.getElementById("page_style").setAttribute("href", "alternate.css");
-        alt = true;
-    }
+        sheet.href = "style.css";
+        localStorage.setItem("color", "style.css");
+
+        sheet.href = "alternate.css";
+        localStorage.setItem("color", "alternate.css");
+    } 
 }
