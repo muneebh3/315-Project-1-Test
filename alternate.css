@@ -1,0 +1,189 @@
+.blue_overline_text {
+    color:blue;
+    text-decoration: overline;
+}
+
+#underline_text {
+    text-decoration: underline;
+}
+
+#red_text {
+    color: red;
+}
+
+#blue_text {
+    color: blue;
+}
+
+#small_image {
+    width: 200;
+    height: 200;
+}
+
+#wordle_image {
+    width: 575;
+    height: 350;
+}
+
+#cube_image {
+    width: 600;
+    height: 400;
+}
+
+#sarf_image {
+    width: 100%;
+}
+
+#background_color_grey {
+    background-color: #173cab;
+}
+
+#center {
+    text-align: center;
+}
+
+#profile_pic {
+    visibility: hidden;
+    position: absolute;
+    bottom: 100px;
+}
+
+#alt_pic {
+    text-align: center;
+}
+
+#width_mid {
+    width: 80%;
+    margin: auto;
+}
+
+#left {
+    text-align: left;
+    border: 2px solid #ccc;
+}
+
+#main_text {
+    margin-left: 11%;
+    width: 78%;
+    line-height: 1.5;
+}
+
+#menu {
+    width: 10%;
+    background: #e4c292;
+    font-size: 17px;
+    color: #1b3d6d;
+    line-height: 1.6;
+    text-align: center;
+    top: 8px;
+    right: 7px;
+    height: 354px;
+    position: fixed;
+}
+
+#sidebar_right {
+    width: 10.01%;
+    top: 334.5px;
+    right: 7px;
+    height: 100%;
+    background: #1b3d6d;
+    position: fixed;
+    color: #1b3d6d;
+}
+
+#sidebar_left {
+    width: 10%;
+    top: 36.5px;
+    left: 7px;
+    height: 100%;
+    background: #1b3d6d;
+    position: fixed;
+    color: #1b3d6d;
+}
+
+#vertical_center {
+    position: absolute;
+    top: 28%;
+}
+
+#text_left {
+    text-align: left;
+}
+
+p {
+    font-size: 20px;
+    color: #ccc;
+    text-align: center;
+}
+
+h1 {
+    color: gray;
+}
+
+h2 {
+    font-size: 35px;
+    color: #173cab;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+body {
+    font-family: 'Apple Chancery', cursive;
+    color: #fff;
+}
+
+a {
+    color: #1b3d6d;
+}
+
+a:link {
+    color: #1b3d6d;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #1b3d6d;
+}
+
+a:hover {
+    color: #137cab;
+    text-decoration: underline;
+}
+
+table {
+    border: 10px solid #bbb;
+    background: #ccc;
+}
+
+td {
+    color: #1b3d6d;
+}
+
+dl {
+    font-size: 20px;
+    color: #ccc;
+}
+
+dt {
+    color: #e4c292;
+}
+
+button {
+    color: #1b3d6d;
+    background: #e4c292;
+    border: 2px solid #ccc;
+    font-size: 19.75px;
+    position: fixed;
+}
+
+#button2 {
+    color: #1b3d6d;
+    background: #e4c292;
+    border: 2px solid #ccc;
+    font-size: 19.75px;
+    position: fixed;
+    left: 6px;
+    top: 6px;
+}

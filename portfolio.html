@@ -3,14 +3,16 @@
 <head>
 <title>Muneeb Hashmi</title>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-<link rel="stylesheet" type="text/css" href="style.css"></link>
+<link rel="stylesheet" type="text/css" href="style.css" id="page_style"></link>
 </head>
 
 <body id="background_color_grey">
+  <script src="switch.js"></script>
 
-    <table width="100%">
-        <tr> <td id="center">
-        <div>
+    <table id="width_mid">
+        <tr> <td>
+        <div id="button2"><button type="button" onclick="change_style()" id="style_change"><b>Change Style</b></button></div>
+        <div id="center">
             <br>
             <h2><b>My Portfolio</b></h2>
         </div>
@@ -18,6 +20,8 @@
     </table>
 
 <div id="vertical_center">
+  <div id="sidebar_right">Some Text</div>
+  <div id="sidebar_left">Some Text</div>
   <div id="menu">
     <h3><b>MENU</b></h3>
     <a href="index.html">Home<br></a>
@@ -25,26 +29,41 @@
     <a href="qualifications.html">Qualifications<br></a>
     <a href="service.html">Service<br></a>
     <a href="https://www.linkedin.com/in/muneeb-h" target="_blank">LinkedIn<br></a>
-    <a href="no_css.html">HTML Only<br><br></a>
+    <a href="mailto: muneebhashmi339@tamu.edu">Contact Me<br><br></a>
   </div>
   <div id="main_text">
-    <p>
-      Howdy! I'm Muneeb Hashmi, an aspiring junior undergraduate 
-      student at Texas A&M University studying computer science. I'm part of A&M's Engineering 
-      to Medicine program, which is an assured program for medicine, meaning I'm hoping to secure
-      a place at the Texas A&M School of Medicine. Although my career interest lies mainly in medicine, 
-      I am very enthusiastic about the field of computer science and would love to gain some experience
-      working in the industry, especially areas in which the two fields, CS and medicine, merge! I am mainly
-      proficient in C++, Python, Java (and apparently HTML and CSS now), and am always looking to 
-      expand my knowledge in computing, whether that means learning new languages, improving my 
-      problem solving abilities, or trying to get an even better grasp on the fundamentals. Aside from
-      my studies, I enjoy playing video games, listening to music, and watching sports. 
-      <br><br>
-      Here on my webpage you can find information regarding my qualifications, prior work experience, 
-      resume and portfolio, experience with service to humanity, projects I'm currently working on, 
-      my LinkedIn page, and more. You can learn more about these by following the links in the menu
-      at the top left of the page!
-    </p>
+    <dl>
+      <dt><b>- <a href="https://github.tamu.edu/muneebhashmi339" target="_blank">GitHub</a></b></dt>
+      <dt><b>- Wordle Remake</b></dt>
+      <dd>I developed my own version of the popular online word guessing game, 
+        <a href="https://www.nytimes.com/games/wordle/index.html" target="_blank">Wordle</a>. I wrote this solely 
+        in C++ as I was most comfortable doing so, but I plan on using JavaScript to make it playable as a web 
+        game rather than just a C++ executable. <br><br>
+        <div id="left"><img id="wordle_image" src="CustomWordle.png" alt="Wordle Game in Terminal"></div></dd>
+        <br>
+      <dt><b>- Rubik's Cube Solver</b></dt>
+      <dd>I am currently working on a program that can solve the Rubik's Cube given any 
+        scramble (set of moves that puts the cube in a random, unsolved state). I'm using a software sketchbook 
+        and development platform based on Java called Processing to design the graphics and motion of the cube 
+        itself, and C++ for the algorithms necessary to solve the cube. The method I'm basing the algorithms off 
+        of is called the <a href="https://jperm.net/3x3/cfop" target="_blank">Fridrich Method</a>, often referred 
+        to as CFOP to abbreviate the four steps of the process.<br><br>
+        <div id="left"><img id="cube_image" src="RubiksCubeOpenGL.png" alt="Rubik's Cube in OpenGL"></div></dd>
+        <br>
+      <dt><b>- Sarf Generator</b></dt>
+      <dd>I wrote a program that takes in root words in Arabic, and outputs all the possible conjugations of that 
+        word. I wrote this in Python and used the rules of 
+        <a href="https://www.learnarabiconline.com/arabic-morphology-introduction/" target="_blank">Sarf</a>, or 
+        Arabic morphology, to tell the program what to output. The user also has the option to choose a particular 
+        family of words, which provides a smaller subset of words from the given root. I made this program after
+        noticing that nothing like this exists on the Internet or as a mobile app. As I began learning Arabic, I 
+        found it very difficult to memorize all the rules of Sarf, so I thought it would be useful to have a 
+        program that "checks your work" for you, and can be used as a study tool. I plan to develop this program 
+        more in the future, and hopefully pitch the idea to Arabic learning institutions who can then provide 
+        the tool to students. <br><br>
+        <div id="left"><img id="sarf_image" src="SarfGenerator.png" alt="Arabic Morpology Generator in Terminal"></div></dd>
+        <br>
+    </dl>
   </div>
 </div>
 
